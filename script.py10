@@ -1,0 +1,20 @@
+from scapy.all import*
+
+trame = Ether(type=0x0800)
+
+packet = ARP()
+
+packet.hwlen = 6
+packet.plen = 4
+packet.op = 1
+packet.psrc = '172.18.119.125'
+packet.pdst = '172.18.119.149'
+packet.hwsrc = 'de:c0:7f:db:44:2a'
+packet.hwdst = '02:0f:b5:b4:1b:e2'
+
+total = trame / packet
+total.show()
+
+while True :
+        sendp(total)
+
