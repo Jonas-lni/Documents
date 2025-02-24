@@ -1,0 +1,8 @@
+# Tp volumes logiques
+
+## Disques virtuels
+
+** voir de 4.1 à 4.10** du Tp du **_20 novembre 2024_** mkfs.etx4 - mount - umount - debugfs - clri - **suppression de l'inode d'un fichier** - **fsck** - e2fsck - **apt info testdisk** -
+
+important : il faut toujours indiquer le chemin du fichier que nous traiton si nous ne sommes pas dans le répertoire ou se trouve le fichier
+
